@@ -27,8 +27,6 @@ class Interface:
 
     def exit_program(self):
         self.account_manager.end_program()
-        print("I Love You <3")
-        input()
         sys.exit(0)
 
     def set_new_password(self) -> None:
